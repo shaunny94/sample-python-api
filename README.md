@@ -43,7 +43,7 @@ Downlaod dependencies necessary for project
 ```
 
 
-# Step 3:
+# Step 4:
 Create a postgres database with the following configuration:
 ```
 dbname=postgres user=postgres password=admin
@@ -51,7 +51,7 @@ dbname=postgres user=postgres password=admin
 ```
 
 
-# Step 3:
+# Step 5:
 Create a customer model table for postgres. 
 ```
 CREATE TABLE customers (
@@ -63,7 +63,7 @@ CREATE TABLE customers (
 
 ```
 
-# Step 4:
+# Step 6:
 Go into the sample-python-api directory and run the main function with the following command
 
 ```
@@ -74,7 +74,7 @@ python  main.py
 
 
 
-# Step 5a:
+# Step 7a:
 
 This application has four endpoints: 
 
@@ -104,7 +104,7 @@ This is to delete a record in the table
 ```
 
 
-# Step 5b
+# Step 7b
 
 Can use postman to access api as well
 ```
