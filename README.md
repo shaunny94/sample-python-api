@@ -4,6 +4,8 @@ The aim is to create a backend api to perform CRUD operations for a customer tab
 
 
 # Structure
+
+```
 [sample-python-api]
 |
 |___ connect_postgres.py
@@ -16,7 +18,7 @@ The aim is to create a backend api to perform CRUD operations for a customer tab
 |___ requirements.txt    # Dependencies are kept here
 |___ update_table.py
 
-
+```
 
 
 # Step 1:
