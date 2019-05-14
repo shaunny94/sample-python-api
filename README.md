@@ -78,21 +78,28 @@ python  main.py
 
 This application has four endpoints: 
 
+This is to insert new records into existing table.
+
 ```
-   http://localhost:8000/create/<name>/<string:dob>  This is to insert new records into existing table. 
+   http://localhost:8000/create/<name>/<string:dob>  
    
     For eg: /John Smith/18-10-1997
 ```
-```
-    http://localhost:8000/read                       This is to read data from the table
+This is to read data from the table
 
 ```
+    http://localhost:8000/read                       
+
 ```
-   http://localhost:8000/update/<customer_id>/<name>/<string:dob>    This is to update name and date of birth                                                                                                        for an existing record in the table.
+This is to update name and date of birth for an existing record in the table.
+
+```
+   http://localhost:8000/update/<customer_id>/<name>/<string:dob>    
    For eg: /1/John Smith/18-10-1997
 ```
+This is to delete a record in the table
 ```
- http://localhost:8000/delete/<customer_id>                      This is to delete a record in the table
+ http://localhost:8000/delete/<customer_id>                      
 
 ```
 
